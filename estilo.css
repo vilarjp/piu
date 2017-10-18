@@ -39,8 +39,13 @@ nav.navbar-azul {
 
 .navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover {
 	color: #9bf0e1;
-
 }
+
+
+.navbar-right {
+	margin-right: -75px;
+}
+
 
 /* -- Botoes -- */
 .btn-custom {
@@ -48,9 +53,21 @@ nav.navbar-azul {
 	margin: 15px;
 }
 
+.btn-custom:hover { /* hover = when mouse passes by it*/
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.75);
+}
+
+.btn-verde {
+	margin-top: -10px;
+}
+
 .btn-roxo {
 	background: #7c25f8;
 	color: white;
+}
+
+.btn-roxo:active {
+	transform: scale(0.95);
 }
 
 .btn-roxo:hover {
@@ -60,4 +77,8 @@ nav.navbar-azul {
 .btn-amarelo {
 	background: rgb(247, 229, 61);
 	color: black;
+}
+
+.btn-amarelo:active {
+	transform: scale(0.95);
 }
